@@ -2,13 +2,11 @@ title: DESA
 email: elitsa0897@gmail.com
 description: Second-hamd clothes
 destination: docs
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/CSS-Advanced-Project-Assignment"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: Elitsa Dimitrova
 github_username:  Elitsa-Dimitrova
-
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
@@ -20,14 +18,15 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#  exclude:
+  #  - docs
+  #  - .sass-cache/
+  #  - .jekyll-cache/
+  #  - gemfiles/
+  #  - Gemfile
+  #  - Gemfile.lock
+  #  - node_modules/
+  #  - vendor/bundle/
+  #  - vendor/cache/
+  #  - vendor/gems/
+  #  - vendor/ruby/
