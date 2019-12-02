@@ -1,0 +1,33 @@
+{
+  "name": "css-advanced-project-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[g",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elitsa-Dimitrova/CSS-Advanced-Project-Assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elitsa-Dimitrova/CSS-Advanced-Project-Assignment/issues"
+  },
+  "homepage": "https://github.com/Elitsa-Dimitrova/CSS-Advanced-Project-Assignment#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "child_process": "^1.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
