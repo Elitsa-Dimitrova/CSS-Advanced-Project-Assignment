@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+        <img src="../media/logo.jpg" class="logo" alt="">
         <nav>
             <button><a href="../index.html">Home</a></button>
             <button><a href="../about/">About</a></button>
@@ -17,9 +18,10 @@
     </header>
 
     <main>
-        {% if page.title %}
-        <h2>{{ page.title }}</h2>
-        {% endif %}
+        <div class="imgHolder">
+            <img src="../media/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg" class="page_image" alt="">
+        </div>
+        
 
         {{ content }}
     </main>

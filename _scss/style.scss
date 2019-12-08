@@ -1,0 +1,47 @@
+@import '_typography.scss';
+@import '_reset.scss';
+@import '_navigation.scss';
+@import '_responsive';
+@import '_variables.scss';
+@import '_header.scss';
+@import '_footer.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+    margin: 0 auto;
+}
+
+header, footer {
+    background: $site-main-color;
+    display: flex;
+    padding: 0.5em;
+}
+
+
+main {
+
+    & .imgHolder::before {
+        display: block;
+        content: '';
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+    }
+
+    & img {
+        padding: 0;
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 0;
+
+        
+    }
+
+}
