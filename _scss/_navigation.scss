@@ -1,4 +1,23 @@
 header nav {
     display: flex;
-    align-self: flex-end;
+    margin-left: auto;
+
+    & button {
+        padding: 0.8em;
+        margin: 1em;
+        background: var(--site-secondary-color);
+        border: none;
+        border-radius: 10px;
+         
+        a {
+            text-decoration: none;
+            color: var(--site-main-color);
+            
+            & :visited {
+                color:var(--site-main-color);
+            }
+        }
+
+        
+    }
 }
