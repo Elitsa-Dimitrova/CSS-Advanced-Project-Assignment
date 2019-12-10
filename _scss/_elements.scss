@@ -1,0 +1,13 @@
+.title_container {
+    background: var(--site-secondary-color);
+    color: var(--site-main-color);
+    padding: 1em;
+    margin-left: -9em;
+    margin-bottom: 3em;
+    width: 20em;
+
+    & h2 {
+        text-align: center;
+    }
+
+}

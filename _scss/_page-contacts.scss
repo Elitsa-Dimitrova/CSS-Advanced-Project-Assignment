@@ -1,0 +1,15 @@
+.page-contacts .page-content {
+    & .title_container {
+        width: 23vw;
+    }
+
+    & .contact_methods {
+        display: flex;
+        justify-content: space-between;
+
+        & .social p{
+            width: 25em;
+        }
+    }
+    
+}

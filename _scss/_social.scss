@@ -1,0 +1,18 @@
+.social {
+    margin: 1em 0 1em 1em;
+    
+    & p {
+        font-size: 18px;
+        margin-bottom: 1em;
+        border-bottom: 2px solid var(--site-secondary-color);
+        width: 10em;
+    }
+
+    & ul {
+     list-style: none;
+
+        & li span {
+           margin: 0.5em;
+        }
+    }
+}
