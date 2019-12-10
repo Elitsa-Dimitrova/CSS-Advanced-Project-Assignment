@@ -7,21 +7,3 @@ header {
     }
 }
 
-header nav button {
-    align-self: flex-end;
-    padding: 1em;
-    margin: 1em;
-    background: #1C798B;
-    color:white;
-    border: none;
-    border-radius: 10px;
-     
-    
-    a {
-        text-decoration: none;
-        
-        &:visited {
-            color: white;
-        }
-    }
-}

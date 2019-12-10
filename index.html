@@ -3,14 +3,8 @@ layout: main
 title: Home
 featured_image: /media/index-unsplash.jpg
 ---
-<site-entry>
-        {% if page.featured_image %}
-            <entry>
-                <section class="site-media" style="background-image: url('{{ page.featured_image }}');">
-                </section>
-            </entry>
-        {% endif %}
-</site-entry>
+
+{% include entry.html location="home" %}
 
 <h1> Добре дошли!</h1>
 
