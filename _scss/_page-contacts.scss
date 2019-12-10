@@ -1,11 +1,48 @@
 .page-contacts .page-content {
+    padding-bottom: 2em;
+
     & .title_container {
         width: 23vw;
     }
 
+    & .map_holder {
+        & iframe {
+            margin-top: 1.5em;
+            border: 3px solid var(--site-secondary-color);
+        }
+    }
+
     & .contact_methods {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+
+        & .contact_us {
+            margin-left: 6em;
+        }
+
+        form {
+            color: var(--site-secondary-color);
+            margin-top: 2em;
+
+            & .pair {
+                margin: 1em 0 0 1em;
+            }
+
+            & textarea {
+                width: 30em;
+                height: 15em;
+                font-size: 14px;
+
+            }
+
+            & button {
+                padding: 1em;
+                background: var(--site-secondary-color);
+                color: var(--site-main-color);
+                margin-top: 1em;;
+                margin-left: 27em;
+            }
+        }
 
         & .social p{
             width: 25em;
