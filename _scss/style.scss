@@ -6,6 +6,7 @@
 @import '_header.scss';
 @import '_footer.scss';
 @import '_entry.scss';
+@import '_page-Home.scss';
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
@@ -21,10 +22,6 @@ header, footer {
 }
 
 main {
-    display: block;
-
-    & .site-main {
-        position: relative;
-        top: 30em;
-    }
+    width: 80%;
+    margin: 0 auto;
 }
