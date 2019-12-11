@@ -1,6 +1,10 @@
 .page-about  {
         width: 100%;
 
+        .site-media {
+            background-position: 50% 25%;
+     }
+
         .entry {
             & .site-media {
                 max-width: 50%;
