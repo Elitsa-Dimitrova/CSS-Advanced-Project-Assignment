@@ -25,12 +25,5 @@
         }
     }
 
-    & .products_table {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-        & .other_products{
-            grid-column: 1 / 3;
-        }
-    }
+    
 }
