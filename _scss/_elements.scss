@@ -16,9 +16,8 @@ button {
     padding: 1em;
     margin: 1em;
     background: var(--site-secondary-color);
-    border: none;
-    box-shadow: black;
-     
+    border: 2px solid var(--site-main-color);
+
     & a {
         text-decoration: none;
         color: var(--site-main-color);
@@ -37,13 +36,14 @@ button {
         100% {
             color: var(--site-secondary-color);
             background: var(--site-main-color);
+            border: 2px solid var(--site-secondary-color);
         }
 
         
     }
     
     &:hover{
-        animation: color-change 0.5s forwards;
+        animation: color-change 0.3s forwards;
 
         & :visited {
             color:var(--site-secondary-color);
