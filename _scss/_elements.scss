@@ -13,18 +13,52 @@
 }
 
 button {
-    padding: 0.8em;
+    padding: 1em;
     margin: 1em;
     background: var(--site-secondary-color);
     border: none;
-    // border-radius: 10px;
+    box-shadow: black;
      
-    a {
+    & a {
         text-decoration: none;
         color: var(--site-main-color);
         
         & :visited {
             color:var(--site-main-color);
         }
+
+        
+    }
+    
+    @keyframes color-change {
+        0% {
+            color: var(--site-secondary-color);
+        }
+        100% {
+            color: var(--site-secondary-color);
+            background: var(--site-main-color);
+        }
+
+        
+    }
+    
+    &:hover{
+        animation: color-change 0.5s forwards;
+
+        & :visited {
+            color:var(--site-secondary-color);
+        }
+            
+    }
+    
+}
+
+.button_container {
+    width: 100vw;
+    padding: 2em 0 1em 0;
+    margin-left: 55em;
+
+    & button {
+        padding: 1em;
     }
 }

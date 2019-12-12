@@ -14,11 +14,15 @@ body {
     width: 100vw;
 }
 
-header, footer {
+.header, footer {
     background: var(--site-main-color);
     display: flex;
     padding: 0.5em;
     width: 100vw;
+}
+
+nav {
+    margin-left: auto;
 }
 
 .site-media {
@@ -26,16 +30,37 @@ header, footer {
 }
 
 main {
-    width: 50%;
+    margin-top: 6em;
+    width: 80%;
     padding-left: 9em;
 
     & .post-content {
         margin: 3em 0 3em 0;
-    }
+        
+        & img {
+            margin: 2em;
+            width: 50%;
+            height: 20em;
+            float: right;
+            padding: 1em;
+            border: 2px solid var(--site-secondary-color);
+        }
+
+        & button {
+            align-self: flex-end;
+            margin-left: auto;
+        }
+
+        & .next {
+            margin-left: 56em;
+        }
+     }
 
     & p {
         margin: 1em 0 1em 0;
     }
+
+    
 }
 
 
