@@ -46,14 +46,22 @@ main {
             border: 2px solid var(--site-secondary-color);
         }
 
+        ul{
+            list-style-type: none;
+            margin-left: 2em;
+            border-left: 2px solid var(--site-secondary-color);
+        }
+
         & button {
             align-self: flex-end;
             margin-left: auto;
         }
 
-        & .next {
+        & .go_through_articles {
+            align-self: flex-end;
             margin-left: 56em;
         }
+
      }
 
     & p {
