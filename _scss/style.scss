@@ -1,9 +1,9 @@
 @import '_reset.scss';
 @import '_typography.scss';
 @import '_variables.scss';
+@import '_responsive.scss';
 
 @import '_navigation.scss';
-@import '_responsive';
 
 @import '_elements.scss';
 @import '_social.scss';
@@ -12,6 +12,7 @@
 @import '_header.scss';
 @import '_footer.scss';
 
+@import '_articles.scss';
 @import '_page-contacts.scss'; 
 @import '_page-articles.scss';
 @import '_page-products.scss';
@@ -20,20 +21,41 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+html {
+    width: 100%;
+}
+
 body {
     margin: 0 auto;
     color: var(--site-secondary-color);
     display: block;
+    width: 100%;
 }
 
 header, footer {
-    background: var(--site-main-color);
-    display: flex;
+    background: rgba($color: #ffffff4f, $alpha: 0.3);
     padding: 0.5em;
+    width: 100%;
 }
 
 main {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 6em;
 }
+
+.content {
+    padding: 0em 2em 0 2em;
+}
+.page-content, 
+.post-content {
+	max-width: 75rem;
+	margin: 0 auto;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+

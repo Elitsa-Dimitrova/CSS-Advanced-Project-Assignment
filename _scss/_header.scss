@@ -3,15 +3,12 @@ header {
     position: fixed;
     top: 0;
     z-index: 100;
-    width: 100vw;
+    width: 100%;
+    background: rgba($color: #ffffff, $alpha: .3);
+    display: flex;
 
     & .nav {
         margin-left: auto;
-    }
-
-    & .logo {
-        width: 10em;
-        height: 5em;
     }
 }
 

@@ -6,6 +6,8 @@
     }
 
     & .map_holder {
+        margin-left: 10em;
+        margin-top: 5em;
         & iframe {
             margin-top: 1.5em;
             border: 3px solid var(--site-secondary-color);
@@ -13,11 +15,11 @@
     }
 
     & .contact_methods {
-        display: flex;
-        justify-content: space-evenly;
+        width: 100%;
+        
 
         & .contact_us {
-            margin-left: 6em;
+            margin-left: 0em;
         }
 
         form {

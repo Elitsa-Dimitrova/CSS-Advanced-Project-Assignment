@@ -2,9 +2,22 @@
     background: var(--site-secondary-color);
     color: var(--site-main-color);
     padding: 1em;
-    margin-left: -9em;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
     width: 20em;
+
+    @keyframes load_page {
+        0% {
+            margin-left: -30em;
+            opacity: 0;
+        }
+        55% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    animation: load_page 1s ease-in-out forwards;
 
     & h2 {
         text-align: center;
@@ -37,6 +50,7 @@ button {
             color: var(--site-secondary-color);
             background: var(--site-main-color);
             border: 2px solid var(--site-secondary-color);
+            box-shadow: 5px 5px 5px 3px #888888;
         }
 
         
@@ -50,15 +64,34 @@ button {
         }
             
     }
+
     
 }
 
 .button_container {
-    width: 100vw;
     padding: 2em 0 1em 0;
-    margin-left: 55em;
+    margin-left: 75%;
 
     & button {
         padding: 1em;
     }
 }
+
+.logo {
+    height: 5em;
+    padding-top: 1.5em;
+    padding-left: 5%;
+    text-align: center;
+
+    & strong {
+        font-size: 26px;
+        width: auto;
+    }
+    
+}
+
+
+
+
+
+

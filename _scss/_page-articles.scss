@@ -1,10 +1,9 @@
 .page-content {
-    margin: 3em 0 3em 0;
 
     & .articles_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
+    grid-gap: 7em;
     width: 80%;
     margin: 0 auto;
 
@@ -13,22 +12,35 @@
             padding: 1em;
             border: 2px solid var(--site-secondary-color);
             border-radius: 5px;
+            box-shadow: 5px 5px 5px 3px #888888;
 
-            & img {
+            & .img_container {
                 width: 100%;
                 height: 20em;
+                
+                & img {
+                    width: 100%;
+                    height: 20em;
+                    object-fit: cover;
+                }
             }
+            
 
             & h3 {
                 margin: 1em 0 1em 0;
             }
 
-            & p {
-                font-size: 14px;
+            & .info {
+                height: 13em;
+                padding: 1em;
+
+                & p {
+                    font-size: 16px;
+                }
             }
 
             & button {
-                margin: 2em 0 1em 20em;
+                margin-left: 65%;
             }
         }   
     }

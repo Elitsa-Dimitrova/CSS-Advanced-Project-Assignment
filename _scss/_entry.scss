@@ -1,14 +1,11 @@
 body .site-media {
-    padding-left: 2em;
     padding: 0;
-    width: 100vw;
     height: 20em;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: 2px solid gray;
     content: " ";
-    margin-left: -10em;
 
     &::after {
         display: block;
