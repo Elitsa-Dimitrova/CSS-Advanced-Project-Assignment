@@ -4,16 +4,19 @@
     }
 
     & .intro {
-        //padding: 1em;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2em;
        
 
         & section {
-            //width: 30%;
             align-items: center;
             
+            & section span {
+                &:hover{
+                    color: rgb(15, 43, 59);
+                } 
+            }
 
             & span {
                 margin: 0 auto;;
