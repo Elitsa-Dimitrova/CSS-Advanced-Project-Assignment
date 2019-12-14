@@ -94,6 +94,11 @@ label {
         font-size: 26px;
         width: auto;
     }
+
+    & a {
+        text-decoration: none;
+        color: var(--site-secondary-color);
+    }
     
 }
 
