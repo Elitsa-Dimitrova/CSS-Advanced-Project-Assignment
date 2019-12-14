@@ -34,20 +34,23 @@ body {
     & .mobile_menu {
         opacity: 0;
         position: absolute;
-        z-index: 1000;
-        margin-left: auto;
-        margin-left: 80%;
+        //z-index: -10;
         position: fixed;
         margin-top: 5em;
+        width: 0;
+        z-index: 1000;
+        right: 10em;
 
-        & ul  li{
-            & button {
-                width: 10em;
-            }
-            
-            width: 10em;
-            text-align: right;
-            box-shadow: none;
+        & ul li{ 
+                
+                margin-left: auto;
+                & button {
+                    width: 10em;
+                }
+                
+                width: 0em;
+                text-align: right;
+                box-shadow: none;
         }
     }
 
