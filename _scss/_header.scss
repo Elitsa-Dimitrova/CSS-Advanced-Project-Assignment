@@ -7,8 +7,21 @@ header {
     background: rgba($color: #ffffff, $alpha: .3);
     display: flex;
 
-    & .nav {
+    & nav {
         margin-left: auto;
+
+        & > ul {
+            display: flex !important;
+        } 
     }
+
+    & .nav-toggle-label {
+        margin-left: auto;
+
+        & button {
+            color: var(--site-main-color);
+        }
+    }
+        
 }
 

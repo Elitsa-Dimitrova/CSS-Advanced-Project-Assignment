@@ -30,6 +30,38 @@ body {
     color: var(--site-secondary-color);
     display: block;
     width: 100%;
+
+    & .mobile_menu {
+        opacity: 0;
+        position: absolute;
+        z-index: 1000;
+        margin-left: auto;
+        margin-left: 80%;
+        position: fixed;
+        margin-top: 5em;
+
+        & ul  li{
+            & button {
+                width: 10em;
+            }
+            
+            width: 10em;
+            text-align: right;
+            box-shadow: none;
+        }
+    }
+
+    & .nav-toggle {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+
+        &:checked  + .mobile_menu{
+                opacity: 1 !important;
+                display: block;
+            }
+       
+    }
 }
 
 header, footer {
@@ -47,6 +79,7 @@ main {
 .content {
     padding: 0em 2em 0 2em;
 }
+
 .page-content, 
 .post-content {
 	max-width: 75rem;

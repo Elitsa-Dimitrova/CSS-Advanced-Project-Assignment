@@ -1,4 +1,15 @@
-header nav {
-    display: flex;
-    margin-left: auto;
+header {
+
+    & .nav-toggle-label {
+        //opacity: 0;
+        color: var(--site-main-color);
+        pointer-events: none;
+    }
+    
+
+    & nav {
+        
+        display: flex;
+        margin-left: auto;
+    }
 }

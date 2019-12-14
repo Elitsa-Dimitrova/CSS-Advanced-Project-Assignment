@@ -24,8 +24,14 @@
     }
 
 }
+label {
+    color: var(--site-main-color);
+    font-size: 14px;
+    opacity: 0;
+}
 
-button {
+button,
+label {
     padding: 1em;
     margin: 1em;
     background: var(--site-secondary-color);
@@ -88,6 +94,10 @@ button {
         width: auto;
     }
     
+}
+
+ul {
+    list-style: none;
 }
 
 

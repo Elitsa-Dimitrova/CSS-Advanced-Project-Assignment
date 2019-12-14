@@ -11,14 +11,33 @@
 </head>
 
 <body class="page-{{ page.title | slugify }}">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+    <nav class="mobile_menu">
+            
+            <ul>
+                <li><button><a href="{{ site.baseurl }}/index.html">Начало</a></button></li>
+                <li><button><a href="{{ site.baseurl }}/products.html">Продукти</a></button></li>
+                <li><button><a href="{{ site.baseurl }}/about.html">За Texaid</a></button></li>
+                <li><button><a href="{{ site.baseurl }}/contacts.html">Контакти</a></button></li>
+                <li><button><a href="{{ site.baseurl }}/articles_page1.html">Статии</a></button></li>
+            </ul>
+    </nav>
+
     <header>
         <div class="logo"><strong>ДЕСА комерс</strong></div>
-        <nav>
-            <button><a href="{{ site.baseurl }}/index.html">Начало</a></button>
-            <button><a href="{{ site.baseurl }}/products.html">Продукти</a></button>
-            <button><a href="{{ site.baseurl }}/about.html">За Texaid</a></button>
-            <button><a href="{{ site.baseurl }}/contacts.html">Контакти</a></button>
-            <button><a href="{{ site.baseurl }}/articles_page1.html">Статии</a></button>
+        
+        <label for="nav-toggle" class="nav-toggle-label">Menu</label>
+
+        <nav class="desktop_menu">
+            
+            <ul>
+                <li><button><a href="{{ site.baseurl }}/index.html">Начало</a></button></li>
+                <li><button><a href="{{ site.baseurl }}/products.html">Продукти</a></button></li>
+                <li><button><a href="{{ site.baseurl }}/about.html">За Texaid</a></button></li>
+                <li><button><a href="{{ site.baseurl }}/contacts.html">Контакти</a></button></li>
+                <li><button><a href="{{ site.baseurl }}/articles_page1.html">Статии</a></button></li>
+            </ul>
         </nav>
         
     </header>

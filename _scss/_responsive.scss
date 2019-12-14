@@ -54,4 +54,29 @@
             grid-template-columns: 1fr !important;
         }
     }
+
+    header {
+            & .nav-toggle-label {
+                pointer-events: all !important;
+                opacity: 1 !important;
+              
+                &:checked + .mobile_menu {
+                    display: block;
+                    opacity: 1;
+                    z-index: 1000 !important;
+                }
+            }
+    
+        
+        & .desktop_menu {
+            display: none !important;   
+        }
+    }
+
+    .title_container h2 {
+        font-size: 18px;
+    }
+        
 }
+
+
