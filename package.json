@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Elitsa-Dimitrova/CSS-Advanced-Project-Assignment#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "child_process": "^1.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-csso": "^4.0.1",
